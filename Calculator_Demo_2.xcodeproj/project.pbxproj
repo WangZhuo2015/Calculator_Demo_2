@@ -13,6 +13,7 @@
 		CB8867461B038585008EE40F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8867451B038585008EE40F /* Images.xcassets */; };
 		CB8867491B038585008EE40F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8867471B038585008EE40F /* LaunchScreen.xib */; };
 		CB8867551B038585008EE40F /* Calculator_Demo_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8867541B038585008EE40F /* Calculator_Demo_2Tests.swift */; };
+		CB88675F1B0388B0008EE40F /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB88675E1B0388B0008EE40F /* MyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CB88674E1B038585008EE40F /* Calculator_Demo_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_Demo_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8867531B038585008EE40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8867541B038585008EE40F /* Calculator_Demo_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_Demo_2Tests.swift; sourceTree = "<group>"; };
+		CB88675E1B0388B0008EE40F /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CB8867451B038585008EE40F /* Images.xcassets */,
 				CB8867471B038585008EE40F /* LaunchScreen.xib */,
 				CB88673C1B038585008EE40F /* Supporting Files */,
+				CB88675E1B0388B0008EE40F /* MyButton.swift */,
 			);
 			path = Calculator_Demo_2;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				CB8867411B038585008EE40F /* ViewController.swift in Sources */,
 				CB88673F1B038585008EE40F /* AppDelegate.swift in Sources */,
+				CB88675F1B0388B0008EE40F /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator_Demo_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator_Demo_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +415,7 @@
 				CB88675A1B038585008EE40F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB88675B1B038585008EE40F /* Build configuration list for PBXNativeTarget "Calculator_Demo_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				CB88675D1B038585008EE40F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
